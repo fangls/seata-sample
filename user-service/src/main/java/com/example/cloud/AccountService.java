@@ -23,5 +23,9 @@ public class AccountService {
         Account account = accountDAO.findByUserId(userId);
         account.setMoney(account.getMoney().subtract(num));
         accountDAO.save(account);
+
+        if (num.equals(new BigDecimal("25"))){
+            throw new RuntimeException("account branch exception");
+        }
     }
 }

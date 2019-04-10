@@ -25,9 +25,5 @@ public class StorageService {
         storage.setCount(storage.getCount()-count);
 
         storageDAO.save(storage);
-
-        if (count == 5){
-            throw new RuntimeException("storage branch exception");
-        }
     }
 }
