@@ -1,6 +1,8 @@
 # seata-sample
 基于spring cloud+spring jpa+spring cloud alibaba fescar+mysql+seata的分布式示例
 
+[分布式事务之Seata中间件原理及流程详细分析](https://blog.csdn.net/f4761/article/details/89077400)
+
 ### 准备工作
 1. 执行数据库脚本
 2. 启动fescar server
